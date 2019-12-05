@@ -1,5 +1,5 @@
 <?php
-  $page = 'Exercice 2'
+  $page = 'Exercice 2';
   $lastname = 'Fagot';
   $firstname = 'Paul';
   $age = 18;
