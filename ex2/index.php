@@ -1,3 +1,8 @@
+<?php
+  $lastname = 'Fagot';
+  $firstname = 'Paul';
+  $age = 18;
+?>
  <!DOCTYPE html>
  <html lang="fr" dir="ltr">
    <head>
@@ -35,11 +40,7 @@
        </li>
      </ul>
    </div>
- </nav> <?php
- $lastname = Fagot;
- $firstname = Paul;
- $age = 18;
- echo "Je m'appelle $firstname $lastname et j'ai $age ans";
-  ?>
+ </nav>
+ <p><?= 'Je m\'appelle ' . $firstname . ' ' . $lastname . ' et j\'ai ' . $age . ' ans et j\'ai $1000';?></p>
    </body>
  </html>
